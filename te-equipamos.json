@@ -1,14 +1,13 @@
 {
   "brand": "Te Equipamos",
+  "schema_version": 2,
   "items": [
     {
       "active": true,
       "type": "offer",
-      "sections": [
-        "Ofertas",
-        "Ventas",
-        "Novedades"
-      ],
+      "sections": ["Ofertas", "Ventas", "Novedades"],
+      "activities": ["senderismo", "trekking"],
+      "product_type": "mochila",
       "title": "Pequeña por fuera, preparada para empezar: una mochila infantil de solo 5 litros",
       "summary": "Quechua MH100 infantil de 5 L, 150 g y espalda acolchada, presentada con sus variantes y promoción Te Equipamos.",
       "details": "Producto de venta con colección de colores, especificaciones y promoción comercial.",
@@ -17,11 +16,7 @@
       "score": 95,
       "featured": false,
       "direct": true,
-      "tags": [
-        "niños",
-        "mochilas",
-        "senderismo"
-      ],
+      "tags": ["niños", "mochilas", "senderismo"],
       "url": "https://jorgesport.github.io/te-equipamos-quechua-mh100-5l/"
     }
   ]
